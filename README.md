@@ -100,7 +100,7 @@
 </details>
 <br>
 
-![Library File Structure](https://github.com/extinctsion/easyPythonpi/assets/67048929/f772ba66-e2eb-4e42-b1b7-104facf6eda4)
+![Library File Structure](https://github.com/nileshaher-2024si96522/easyPythonpi/blob/master/easyPythonpi_package_layout_final.png)
 
 <br>
 <u>

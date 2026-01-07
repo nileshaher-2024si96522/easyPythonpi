@@ -100,7 +100,7 @@
 </details>
 <br>
 
-![Library File Structure]<img width="1800" height="1400" alt="easyPythonpi_package_layout_final" src="https://github.com/user-attachments/assets/f5a42d57-0385-4ffe-b9e5-0fd1e80a168a" />
+![Library File Structure](https://github.com/user-attachments/assets/f5a42d57-0385-4ffe-b9e5-0fd1e80a168a)
 
 <br>
 <u>

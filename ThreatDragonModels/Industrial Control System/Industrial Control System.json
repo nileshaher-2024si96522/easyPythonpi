@@ -1549,7 +1549,8 @@
                 "da814115-82eb-499b-8c4d-91ae50cfcd27",
                 "ae67e575-2c99-4332-86fc-51474dc3b875",
                 "054bac39-cecc-4f93-b0da-f1768357c277",
-                "d7456cf7-9951-4933-ac80-6588fdb1963b"
+                "d7456cf7-9951-4933-ac80-6588fdb1963b",
+                "45a9d01f-afb7-4984-b195-798f2ece1e80"
               ],
               "containedElements": [
                 "bb89f5be-c7d3-4aba-a405-de0b6bd10fd6",
@@ -2660,16 +2661,16 @@
             },
             "target": {
               "cell": "f99d8631-5c75-4df8-9ea9-a723c9769834",
-              "port": "115ec2d0-ddc6-4fff-aa78-c9a094b10122"
+              "port": "dd4438f3-054c-4f1c-9960-184955490ab7"
             },
             "vertices": [
               {
-                "x": 1820,
-                "y": 1510
+                "x": 1910,
+                "y": 1290
               },
               {
-                "x": 2050,
-                "y": 1480
+                "x": 2120,
+                "y": 1350
               }
             ]
           },
@@ -2714,7 +2715,7 @@
             "id": "054bac39-cecc-4f93-b0da-f1768357c277",
             "source": {
               "cell": "f99d8631-5c75-4df8-9ea9-a723c9769834",
-              "port": "115ec2d0-ddc6-4fff-aa78-c9a094b10122"
+              "port": "dd4438f3-054c-4f1c-9960-184955490ab7"
             },
             "target": {
               "cell": "12f4d802-9f02-4bf5-aefb-cdcebe47a582",
@@ -2722,12 +2723,20 @@
             },
             "vertices": [
               {
-                "x": 1930,
-                "y": 1410
+                "x": 2200,
+                "y": 1360
               },
               {
-                "x": 1660,
-                "y": 1390
+                "x": 2080,
+                "y": 1230
+              },
+              {
+                "x": 1900,
+                "y": 1200
+              },
+              {
+                "x": 1670,
+                "y": 1160
               }
             ]
           },
@@ -5282,6 +5291,54 @@
                 "y": 1740
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 39,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Download Controller Logic",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "80659bce-d1a4-42d2-a13d-73e3f4fc924d"
+              ]
+            },
+            "labels": [
+              "Download Controller Logic"
+            ],
+            "id": "45a9d01f-afb7-4984-b195-798f2ece1e80",
+            "source": {
+              "cell": "2777c5a3-1528-4bfd-a44e-624cf6417cf0",
+              "port": "39973562-a648-47c6-9b0e-2d805fda5917"
+            },
+            "target": {
+              "cell": "f99d8631-5c75-4df8-9ea9-a723c9769834",
+              "port": "115ec2d0-ddc6-4fff-aa78-c9a094b10122"
+            }
           }
         ]
       }

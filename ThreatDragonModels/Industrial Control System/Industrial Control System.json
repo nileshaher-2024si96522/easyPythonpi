@@ -2745,52 +2745,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update Safety Parameters",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Update Safety Parameters"
-            ],
-            "id": "d5bdecd3-5c3f-4b49-8b67-1b08b24ff169",
-            "source": {
-              "x": 1520,
-              "y": 1513
-            },
-            "target": {
-              "x": 1620,
-              "y": 1613
-            }
-          },
-          {
             "position": {
               "x": 609,
               "y": -420
@@ -5395,6 +5349,52 @@
                 "y": 1120
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 40,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update Safety Parameters",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update Safety Parameters"
+            ],
+            "id": "d5bdecd3-5c3f-4b49-8b67-1b08b24ff169",
+            "source": {
+              "x": 1520,
+              "y": 1513
+            },
+            "target": {
+              "cell": "2a629474-9a92-4ad7-99df-05b32e26d40f",
+              "port": "dd4438f3-054c-4f1c-9960-184955490ab7"
+            }
           }
         ]
       }
